@@ -10,7 +10,7 @@ const AuthLayout = ({ children }: AuthLayoutProps) => {
     <div>
         <Image src="/logo.svg" alt="logo" height={20} width={50} />
         {children}</div>
-  );
+  );  
 };
 
 export default AuthLayout;
